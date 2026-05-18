@@ -293,13 +293,14 @@ const Contact = () => {
                   <h3 className="font-bold mb-4">Follow Us</h3>
                   <div className="flex gap-3">
                     {[Facebook, Instagram, Linkedin].map((Icon, index) => (
-                      <a
+                      <button
                         key={index}
-                        href="#"
-                        className="p-3 bg-dark-800 rounded-xl hover:bg-primary-600 transition-colors"
+                        type="button"
+                        aria-label="Social link"
+                        className="p-3 bg-dark-800 rounded-xl hover:bg-primary-600 transition-colors cursor-pointer"
                       >
                         <Icon className="w-5 h-5" />
-                      </a>
+                      </button>
                     ))}
                   </div>
                 </div>

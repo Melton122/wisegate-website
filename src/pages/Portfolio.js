@@ -8,8 +8,6 @@ import {
   MapPin, 
   Calendar, 
   Wrench,
-  Check,
-  ArrowRight,
   Filter
 } from 'lucide-react';
 
@@ -46,7 +44,6 @@ const Portfolio = () => {
       ],
       tags: ['Sliding Gate', 'Centurion D5', 'Remote Access', 'Safety Beams'],
       duration: '1 day',
-      price: 'R4,200',
     },
     {
       id: 2,
@@ -65,7 +62,6 @@ const Portfolio = () => {
       ],
       tags: ['Motor Replacement', 'ET Drive', 'Commercial', 'Battery Backup'],
       duration: '3 hours',
-      price: 'R3,800',
     },
     {
       id: 3,
@@ -85,7 +81,6 @@ const Portfolio = () => {
       ],
       tags: ['Intercom', 'Biometric', 'Access Control', 'Cloud Management'],
       duration: '3 days',
-      price: 'R18,500',
     },
     {
       id: 4,
@@ -104,7 +99,6 @@ const Portfolio = () => {
       ],
       tags: ['Swing Gate', 'DACE', 'Solar Backup', 'Custom Fabrication'],
       duration: '2 days',
-      price: 'R8,500',
     },
     {
       id: 5,
@@ -123,7 +117,6 @@ const Portfolio = () => {
       ],
       tags: ['PCB Repair', 'Centurion D5', 'Water Damage', 'Full Service'],
       duration: '2 hours',
-      price: 'R1,200',
     },
     {
       id: 6,
@@ -143,7 +136,6 @@ const Portfolio = () => {
       ],
       tags: ['Smart Home', 'App Control', 'Geofencing', 'Voice Control'],
       duration: '4 hours',
-      price: 'R2,800',
     },
     {
       id: 7,
@@ -162,7 +154,6 @@ const Portfolio = () => {
       ],
       tags: ['Industrial', 'FAAC', 'Loop Detector', 'Heavy Duty'],
       duration: '3 days',
-      price: 'R15,000',
     },
     {
       id: 8,
@@ -181,7 +172,6 @@ const Portfolio = () => {
       ],
       tags: ['Remote Programming', 'Rolling Code', 'Multi-Unit', 'Security'],
       duration: '1 day',
-      price: 'R4,500',
     },
     {
       id: 9,
@@ -200,7 +190,6 @@ const Portfolio = () => {
       ],
       tags: ['Pedestrian Gate', 'Intercom', 'Keypad', 'Compact Motor'],
       duration: '1 day',
-      price: 'R3,200',
     },
   ];
 
@@ -416,8 +405,8 @@ const Portfolio = () => {
                     <p className="font-semibold text-dark-900">{selectedProject.duration}</p>
                   </div>
                   <div className="p-4 bg-dark-50 rounded-xl">
-                    <p className="text-xs text-dark-400 uppercase tracking-wider">Project Value</p>
-                    <p className="font-semibold text-dark-900">{selectedProject.price}</p>
+                    <p className="text-xs text-dark-400 uppercase tracking-wider">Status</p>
+                    <p className="font-semibold text-dark-900">Completed</p>
                   </div>
                 </div>
 

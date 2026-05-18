@@ -58,3 +58,4 @@ coverage/
 
 # Optional: if using Prettier cache
 .prettiercache
+node_modules
