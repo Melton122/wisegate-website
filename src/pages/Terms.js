@@ -7,7 +7,6 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import {
   FileText,
   Shield,
-  Clock,
   AlertTriangle,
   Check,
   ArrowRight,
